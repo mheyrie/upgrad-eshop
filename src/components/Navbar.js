@@ -30,8 +30,8 @@ export default function Navbar() {
           onFocus={(e) => (e.target.style.border = "none")}
         />
       </div>
-      <div className="">
-        <ul className="d-flex gap-4 list-unstyled">
+      <div className="justify-content-center align-content-center">
+        <ul className="d-flex gap-4 list-unstyled m-0">
           {!isLoggedIn ? (
             <>
               <Link to="/login" className="text-white">
