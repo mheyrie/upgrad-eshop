@@ -1,0 +1,22 @@
+@import '~bootstrap/scss/bootstrap';
+
+@import "./styles/variables";
+@import "./styles/landing-page/Home.scss";
+@import "./styles/landing-page/Product.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+
