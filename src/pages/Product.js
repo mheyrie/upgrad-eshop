@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
+import ProductCard from "../components/ProductCard";
 
 export default function Product() {
   return (
     <div>
-    <h1>Product Page</h1>
+    {/* <h1>Product Page</h1>
     <Link to="/product/1">Go to Product 1 Details</Link>
-    <Link to="/checkout">Proceed to Checkout</Link>
+    <Link to="/checkout">Proceed to Checkout</Link> */}
+    <ProductCard/>
   </div>
   )
 }

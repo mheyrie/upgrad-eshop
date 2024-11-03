@@ -43,8 +43,10 @@ export default function Navbar() {
             </>
           ) : (
             <>
+              <Link to='/' className="text-white">
               <li>Home</li>
-              <li>Add Product</li>
+              </Link>
+              <Link to='/product' className="text-white"><li>Add Product</li></Link>
               <button type="button" class="btn btn-danger">
                 LOGOUT
               </button>

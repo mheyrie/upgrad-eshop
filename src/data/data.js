@@ -1,0 +1,73 @@
+const products = [
+    {
+      id: 1,
+      productImage: "https://static7.depositphotos.com/1021014/789/i/380/depositphotos_7899562-stock-photo-living-room.jpg",
+      description: "Ergonomic Office Chair with adjustable lumbar support, breathable mesh back, and padded seat cushion, designed to provide optimal comfort for long hours of sitting. Perfect for home offices or professional workspaces.",
+      price: 129.99,
+      category: "Personal Care",
+    },
+    {
+      id: 2,
+      productImage: "https://st3.depositphotos.com/16285388/19215/i/380/depositphotos_192153566-stock-photo-grandmother-laptop-helping-grandchildren-making.jpg",
+      description: "High-quality Wireless Noise-Canceling Headphones with immersive sound quality, Bluetooth connectivity, and up to 30 hours of battery life. Ideal for music lovers and frequent travelers who need effective noise isolation.",
+      price: 249.99,
+      category: "Electronics",
+    },
+    {
+      id: 3,
+      productImage: "https://st4.depositphotos.com/12982378/27928/i/380/depositphotos_279287006-stock-photo-oil-fresh-vegetables-cooking-utensils.jpg",
+      description: "Durable Stainless Steel Insulated Water Bottle with double-wall vacuum insulation to keep your drinks cold for 24 hours or hot for 12 hours. Eco-friendly and perfect for both indoor and outdoor use.",
+      price: 24.99,
+      category: "Personal Care",
+    },
+    {
+      id: 4,
+      productImage: "https://static8.depositphotos.com/1316161/875/i/380/depositphotos_8755434-stock-photo-computer-mouse.jpg",
+      description: "55-inch 4K Ultra HD Smart TV with stunning picture quality, HDR10 support, and access to all your favorite streaming apps. Includes voice control and a sleek, modern design to elevate your home entertainment experience.",
+      price: 499.99,
+      category: "Electronics",
+    },
+    {
+      id: 5,
+      productImage: "hhttps://st2.depositphotos.com/1001877/5813/i/380/depositphotos_58139017-stock-photo-home-appliances-set-of-household.jpg",
+      description: "Compact 2L Air Fryer with adjustable temperature control, rapid air circulation technology, and easy-to-clean non-stick basket. A healthy alternative to frying with oil, ideal for small kitchens or individual use.",
+      price: 59.99,
+      category: "Electronics",
+    },
+    {
+      id: 6,
+      productImage: "https://example.com/product6.jpg",
+      description: "Lightweight Running Shoes with responsive cushioning, breathable mesh upper, and durable rubber outsole for superior grip. Designed to provide maximum comfort and support during high-impact activities.",
+      price: 89.99,
+      category: "Footwear",
+    },
+    {
+      id: 7,
+      productImage: "https://example.com/product7.jpg",
+      description: "Sturdy Wooden Bookshelf with 5 spacious shelves, a rich walnut finish, and a sleek, modern design. Ideal for displaying books, decorative items, and personal collections in any living space or office.",
+      price: 149.99,
+      category: "Apparel",
+    },
+    {
+      id: 8,
+      productImage: "https://example.com/product8.jpg",
+      description: "Wireless Gaming Mouse with RGB lighting, customizable buttons, and ultra-precise sensor for lag-free performance. Designed to enhance the gaming experience with ergonomic design for extended use.",
+      price: 39.99,
+      category: "Apparel",
+    },
+    {
+      id: 9,
+      productImage: "https://st.depositphotos.com/1076214/2915/i/380/depositphotos_29153173-stock-photo-closeup-of-young-woman-tying.jpg",
+      description: "Soft Organic Cotton Bed Sheets in Queen Size, with a luxurious 400 thread count, breathable fabric, and smooth finish. Eco-friendly, hypoallergenic, and perfect for a comfortable, restful sleep.",
+      price: 69.99,
+      category: "Footwear",
+    },
+    {
+      id: 10,
+      productImage: "https://example.com/product10.jpg",
+      description: "Portable Bluetooth Speaker with deep bass, rich audio quality, and up to 12 hours of playtime. Waterproof design makes it perfect for both indoor and outdoor settings, with easy pairing to any device.",
+      price: 59.99,
+      category: "Electronics",
+    },
+  ];
+  
