@@ -1,18 +1,38 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import products from "../data/data.json";
 
 export default function ProductCard() {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="https://st.depositphotos.com/1001877/2240/i/950/depositphotos_22406555-stock-illustration-laptop-mobile-phone-and-digital.jpg" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">BUY</Button>
-      </Card.Body>
-    </Card>
+    <div className="d-flex flex-wrap justify-content-center">
+      {products.map((product) => (
+        <Link 
+          key={product.id} 
+          to={`/product/${product.id}`} // Navigate to the product details page using product ID
+          className="text-decoration-none" // Optional: removes underline from the link
+        >
+          <Card
+            style={{ width: "18rem" }}
+            className="border border-secondary m-4 bg-white cus-shadow"
+          >
+            <Card.Img variant="top" src={product.productImage} />
+            <Card.Body>
+              <div className="d-flex justify-content-between align-items-center">
+                <Card.Title className="mb-0">{product.title}</Card.Title>
+                <span className="text-secondary fw-bold">₹ {product.price}</span>
+              </div>
+              <Card.Text className="mt-2">{product.description}</Card.Text>
+              <Button
+                className="text-white px-4"
+                style={{ backgroundColor: "#3F51B5" }}
+              >
+                BUY
+              </Button>
+            </Card.Body>
+          </Card>
+        </Link>
+      ))}
+    </div>
   );
 }
