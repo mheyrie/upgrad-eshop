@@ -36,21 +36,21 @@ const products = [
     },
     {
       id: 6,
-      productImage: "https://example.com/product6.jpg",
+      productImage: "https://static8.depositphotos.com/1029233/916/i/380/depositphotos_9164763-stock-photo-shoe-shopping.jpg",
       description: "Lightweight Running Shoes with responsive cushioning, breathable mesh upper, and durable rubber outsole for superior grip. Designed to provide maximum comfort and support during high-impact activities.",
       price: 89.99,
       category: "Footwear",
     },
     {
       id: 7,
-      productImage: "https://example.com/product7.jpg",
+      productImage: "https://st.depositphotos.com/2422249/3332/i/380/depositphotos_33328025-stock-photo-colorful-t-shirt-with-hangers.jpg",
       description: "Sturdy Wooden Bookshelf with 5 spacious shelves, a rich walnut finish, and a sleek, modern design. Ideal for displaying books, decorative items, and personal collections in any living space or office.",
       price: 149.99,
       category: "Apparel",
     },
     {
       id: 8,
-      productImage: "https://example.com/product8.jpg",
+      productImage: "https://st.depositphotos.com/2309453/2666/i/380/depositphotos_26669337-stock-photo-smiling-woman-choosing-shirt-in.jpg",
       description: "Wireless Gaming Mouse with RGB lighting, customizable buttons, and ultra-precise sensor for lag-free performance. Designed to enhance the gaming experience with ergonomic design for extended use.",
       price: 39.99,
       category: "Apparel",
@@ -64,7 +64,7 @@ const products = [
     },
     {
       id: 10,
-      productImage: "https://example.com/product10.jpg",
+      productImage: "https://st2.depositphotos.com/3889193/8014/i/380/depositphotos_80147336-stock-photo-business-teamwork.jpg",
       description: "Portable Bluetooth Speaker with deep bass, rich audio quality, and up to 12 hours of playtime. Waterproof design makes it perfect for both indoor and outdoor settings, with easy pairing to any device.",
       price: 59.99,
       category: "Electronics",
